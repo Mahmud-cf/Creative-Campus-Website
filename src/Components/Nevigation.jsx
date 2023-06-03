@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import headerImage from "../assets/header-cortoon.png";
 import titlebg from "../assets/textbg.png";
@@ -12,12 +12,22 @@ import headerShpaeTwo from "../assets/shape2.png";
 import { FaExpandArrowsAlt } from 'react-icons/fa';
 
 function Nevigation() {
+  const [scroll, setScroll] = useState(false)
+  function scrollHeandler () {
+    if (window.scrollY >= 110){
+      setScroll(true)
+    }else{
+      setScroll(false)
+    }
+  }
+  window.addEventListener('scroll', scrollHeandler)
+  console.log(scroll)
   return (
     
-    <div className="nev-wrapper nevigation container-fluid">
-        <div className=" container">
-          <nav className="navbar navbar-expand-lg ">
-            <div className="container-fluid">
+    <div className="nev-wrapper nevigation">
+        
+          <nav className={scroll? "navbar navbar-expand-lg nav-bg": "navbar navbar-expand-lg "}>
+            <div className="container">
               <a className="navbar-brand" href="#">
                 <img src={logo} alt="Creative Campus Logo" className="logo" />
               </a>
@@ -66,7 +76,7 @@ function Nevigation() {
               </div>
             </div>
           </nav>
-          <div className="header">
+          <div className="header container">
             <div className="header-shape">
               <img className="shape-1" src={headerShpaeOne} alt="" />
               <img className="shape-2" src={headerShpaeTwo} alt="" />
@@ -156,7 +166,12 @@ function Nevigation() {
             </div>
             
           </div>
-        </div>
+
+
+
+
+
+        
     </div>
   );
 }

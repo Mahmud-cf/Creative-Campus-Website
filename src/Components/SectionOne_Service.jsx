@@ -5,8 +5,13 @@ import Toggle from "../SmallComponent/Toggle";
 function SectionOne() {
   return (
     <div className="container-fluid section-one-wrapper section">
+      <div className="section-one-bg-design">
+        <div className="bg-design circul s-1-1"></div>
+        <div className="bg-design strait s-1-2"></div>
+      </div>
       <div className="container">
         <div className="section-box">
+          
           <div className="section-2-lower">
             <div className="row">
               <div className="col-md-3">

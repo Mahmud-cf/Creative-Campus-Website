@@ -6,7 +6,6 @@ function Toggle(props) {
   const clickHandler = () => {
     setToggle(!toggle);
   };
-  console.log(toggle);
   return (
     <div>
       <div className="section-one-single-part">
