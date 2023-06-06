@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Sriracha&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+  --white:#e2e8f0;
+  --red: #FF0025;
+  --dark: #102545;
+  --bg-dark: #040e41;
+  --primary-font: 'Poppins', sans-serif;
+  --heading-font: 'Sriracha', cursive;
+  --box-bg:#02072873;
+  --border: 1px solid rgba(248,250,252,.08);
+}
+
+.school-management-wrapper{
+    padding:5rem 1rem;
+    padding-top:8rem;
+}
+.school-management-wrapper .section-title h1, .school-management-wrapper .section-title h1 span{
+    font-family: var(--heading-font);
+}
+.single-packge-wrapper .card{
+  background-color: var(--box-bg);
+  border: var(--border);
+  color:var(--white)
+}
+.card-header{
+  padding:1.8rem 1rem;
+}
+.card-header .card-title{
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.card-header .card-text{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.card-header .d-flex{
+  justify-content: center;
+}
+.card-header .d-flex div:last-child{
+  margin-top:5px;
+}
+.card-body{
+  padding:2.5rem 1rem;
+}
+.card-body ul{
+  padding-left:0
+}
+.card-body li{
+  list-style-type: none;
+  margin-left:0;
+  padding:.4rem 
+}
+.card-body li svg{
+  margin-right:.7rem;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -36,21 +36,21 @@ function HomeFooter() {
           <div className="col-md-4 col-sm-6">
             <div className="footer-colum">
                 <div className=" footer-link"><a href="/">HOME</a></div>
-                <div className=" footer-link"><a href="#">SOFTWARE</a></div>
+                <div className=" footer-link"><a href="/school-management-software">SOFTWARE</a></div>
                 <div className=" footer-link"><a href="/about">ABOUT US</a></div>
-                <div className=" footer-link"><a href="">COURSES</a></div>
-                <div className=" footer-link"><a href="">REVIEW</a></div>
-                <div className=" footer-link"><a href="#">CONTACT</a></div>
+                <div className=" footer-link"><a href="/courses">COURSES</a></div>
+                <div className=" footer-link"><a href="/review">REVIEW</a></div>
+                <div className=" footer-link"><a href="contact">CONTACT US</a></div>
             </div>
           </div>
           <div className="col-md-4 col-sm-6">
             <div className="footer-colum">
                 <h4>Follow Us</h4>
                 <div className="d-flex social-media" >
-                    <div className="single-social-media" ><FaFacebookF/></div>
-                    <div className="single-social-media" ><FaInstagram/></div>
-                    <div className="single-social-media" ><FaLinkedinIn/></div>
-                    <div className="single-social-media" ><FaTwitter/></div>
+                    <div className="single-social-media" ><a href="https://www.facebook.com/creativecampusbd"><FaFacebookF/></a></div>
+                    <div className="single-social-media" ><a href=""><FaInstagram/></a></div>
+                    <div className="single-social-media" ><a href=""><FaLinkedinIn/></a></div>
+                    <div className="single-social-media" ><a href=""><FaTwitter/></a></div>
                 </div>
             </div>
           </div>

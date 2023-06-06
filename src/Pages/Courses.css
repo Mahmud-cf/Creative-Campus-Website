@@ -1,0 +1,16 @@
+.courses-page{
+    min-height: 100vh;
+}
+.courses-page .contact-header-bg{
+    min-height: 100vh;
+}
+.courses-page .contact-header-bg h1:first-child{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(45deg, #c40a26, #FE8B2D);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}

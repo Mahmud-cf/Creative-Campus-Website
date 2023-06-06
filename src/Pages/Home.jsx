@@ -12,11 +12,11 @@ function Home() {
     <div>
         <Header/>
         <div className="full-bg-color" >
-          <SectionOne/>
-          <SectionTwo/>
-          <SectionThree_WorkProcess/>
-          <SectionThree/>
-          <HomeFooter/>
+            <SectionOne/>
+            <SectionTwo/>
+            <SectionThree_WorkProcess/>
+            <SectionThree/>
+            <HomeFooter/>
         </div>
     </div>
   );

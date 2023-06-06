@@ -40,8 +40,8 @@ function Navbar() {
                 HOME
               </a>
             </li>
-            <NavDropdown title="Dropdown" id="nav-dropdown">
-              <NavDropdown.Item eventKey="4.1">SCHOOL MANAGEMENT SOFTWARE</NavDropdown.Item>
+            <NavDropdown title="SOFTWARE" id="nav-dropdown">
+              <NavDropdown.Item eventKey="4.1" href='/school-management-software'>SCHOOL MANAGEMENT SOFTWARE</NavDropdown.Item>
             </NavDropdown>
             <li className="nav-item">
               <a className="nav-link" href="/courses">
