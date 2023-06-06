@@ -1,0 +1,11 @@
+.not-found-wrapper{
+    width:100%;
+    min-height: 100vh;
+}
+.back-home a{
+    color:white;
+    text-decoration: none;
+}
+.not-found-wrapper .section-title{
+    margin-bottom:2rem;
+}

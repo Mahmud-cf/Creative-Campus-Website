@@ -6,6 +6,7 @@ import Review from '../Pages/Review'
 import Contact_us from '../Pages/Contact_us'
 import Courses from '../Pages/Courses'
 import SchoolManagement from '../Pages/SchoolManagement'
+import NotFound from '../Pages/NotFound'
 
 function AllRoute() {
   return (
@@ -18,6 +19,7 @@ function AllRoute() {
                 <Route path='/review' element={<Review/>} />
                 <Route path='/courses' element={<Courses/>} />
                 <Route path='/school-management-software' element={<SchoolManagement/>} />
+                <Route path='/*' element={<NotFound/>} />
             </Routes>
         </BrowserRouter>
     </div>
