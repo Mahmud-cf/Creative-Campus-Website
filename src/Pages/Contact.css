@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+  }
+  :root{
+    --white:#e2e8f0;
+    --red: #FF0025;
+    --dark: #102545;
+    --bg-dark: #040e41;
+    --primary-font: 'Poppins', sans-serif;
+    --heading-font: 'Sriracha', cursive;
+  }
+  .contact-page-header{
+    
+    background-image: url('../assets/giffy2.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .contact-header-bg{
+    background-color: rgb(4, 14, 65, .7);
+    padding:8rem 0;
+    padding-top:10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-page-header h1{
+    font-size: 4rem;
+    color: var(--white);
+    font-weight: 700;
+    font-family: var(--primary-font);
+  }
+.contact-main-section-wrapper{
+    background-color: var(--bg-dark);
+}
+.contact-main-section{
+    padding:4rem 0;
+    color:var(--white)
+}
+.office-cocation{
+    padding:1.5rem;
+    background-color: #02072873;
+    border: 1px solid rgba(248,250,252,.08);
+    margin-bottom:1.5rem;
+    border-radius: 8px;
+}
+.office-cocation h2{
+    font-size: 1.5rem;
+    margin-bottom:.8rem;
+}
+.office-cocation .d-flex{
+    align-items: center;
+}
+.office-cocation .d-flex p{
+    font-size: .85rem;
+    margin-bottom:0;
+    margin-left:.4rem
+}
+.office-cocation .d-flex svg{
+    font-size: .9rem;
+}
+.contact-social-media{
+    margin-top:.8rem;
+}
+.contact-social-media svg:hover{
+    color:var(--red);
+    color:#5998f6;
+    cursor: pointer;
+}
+.contact-form-wrapper{
+    margin-left:4rem;
+    padding:2.5rem;
+    background-color: #02072873;
+    border: 1px solid rgba(248,250,252,.08);
+    border-radius: 8px;
+}
+.contact-form-wrapper .row .col{
+    margin-bottom:1rem;
+}
+.contact-form-wrapper .row .col button{
+    padding:.5rem 1.5rem;
+}
+.form-label{
+    margin-bottom:.15rem;
+}
+.contact-form-wrapper input, .contact-form-wrapper textarea{
+    border: none;
+    background-image: linear-gradient(0deg, #a6aed7, #c7cce2 );
+}
+
+
+
+
+
+
+
+
+
+
+
+

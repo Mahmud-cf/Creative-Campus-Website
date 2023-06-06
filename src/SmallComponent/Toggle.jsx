@@ -1,34 +1,36 @@
 import React, { useState } from "react";
-import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
+import { useCollapse } from "react-collapsed";
+import { BsChevronDown } from 'react-icons/bs';
 
 function Toggle(props) {
-  const [toggle, setToggle] = useState(false);
-  const clickHandler = () => {
-    setToggle(!toggle);
-  };
+  const [isExpanded, setExpanded] = useState(false);
+  const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
+
   return (
-    <div>
-      <div className="section-one-single-part">
-        <div className="upper-part d-flex" onClick={clickHandler}>
-          <div className="d-flex">
-            <h1>{props.number}</h1>
-            <h1 className="service-title">{props.department}</h1>
+    <div className="secrvice-toggle-wrapper">
+      <div
+        {...getToggleProps({
+          onClick: () => setExpanded((prevExpanded) => !prevExpanded),
+        })}
+      >
+        {isExpanded ? (
+          <div className={isExpanded ? "d-flex toggle-title toggle-active" : "d-flex toggle-title"} >
+            <h4>{props.department}</h4>
+            <div><BsChevronDown/></div>
           </div>
-          <div>
-            <h1>{toggle ? <AiOutlineMinus /> : <AiOutlinePlus />}</h1>
+        ) : (
+          <div className="d-flex toggle-title" >
+            <h4>{props.department}</h4>
+            <div><BsChevronDown/></div>
           </div>
-        </div>
-        <div className={toggle ? "lower-part-true" : "lower-part-false"}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ab
-            officiis corporis consectetur nisi ipsum rerum doloribus cupiditate,
-            facilis, ratione voluptates et quisquam esse cumque illo tempore
-            soluta placeat quia!
-          </p>
-        </div>
+        )}
       </div>
+      <section {...getCollapseProps()}>
+        <div>
+          <p>{props.serviceDetails}</p>
+        </div>
+      </section>
     </div>
   );
 }
-
 export default Toggle;

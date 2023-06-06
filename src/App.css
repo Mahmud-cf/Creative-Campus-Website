@@ -1,3 +1,8 @@
+
+
+/* ===================ALL THE HOME PAGE CSS WRITE HERE================= */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Sriracha&display=swap');
 *{
   margin: 0;
@@ -12,6 +17,7 @@
   --primary-font: 'Poppins', sans-serif;
   --heading-font: 'Sriracha', cursive;
 }
+
 /* ==============NAVIGATION PART================= */
 .logo{
   width:10rem;
@@ -54,6 +60,33 @@
   background-color: var(--red);
   left: 0;
   bottom: 0px;
+  border: none!important;
+}
+.dropdown-toggle::before{
+  display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    right:-5%;
+    top:47%;
+    position: absolute;
+}
+.dropdown-menu{
+  background-color: #030B36;
+  border: 1px solid rgba(248,250,252,.08);
+}
+.dropdown-item:hover{
+  color: var(--red);
+  background-color: initial;
+}
+.dropdown-item{
+  font-size: 17px;
+  font-weight: 500;
+  color:var(--white)
 }
 .navbar-nav .nav-item .nav-link:hover::after{
   width:100%;
@@ -138,7 +171,7 @@
   margin-left:20%;
   z-index: 2;
 }
-.header-left-part p span{
+.creative-campus-name{
   font-weight: 500;
   background-color: #f3ec78;
     background-image: linear-gradient(45deg, #FF0025, #FE8B2D);
@@ -285,6 +318,7 @@
   padding:5rem 0;
 
 }
+
 .full-bg-color{
   background-color: var(--bg-dark);
 }
@@ -318,7 +352,33 @@
   background-color: var(--bg-dark);
   background-size: cover;
   background-repeat: no-repeat;
-  color:var(--white)
+  color:var(--white);
+  padding-bottom:6rem;
+  
+}
+.section-2-lower{
+  position:absolute;
+  color:var(--white);
+  font-weight: 600;
+  top:-6%;
+  left:9%;
+  padding:2rem;
+  border-radius: 1.5rem;
+  background-image: url('./assets/coll-backgrount-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:80%;
+}
+.section-2-lower .row .col-md-3 .d-flex{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-2-lower .row .col-md-3 .d-flex div, .section-2-lower .row .col-md-3 .d-flex h3{
+  font-size: 1.5rem!important;
+}
+.section-2-lower .row .col-md-3 .d-flex div{
+  margin-bottom:1.3rem;
 }
 .bg-design{
   background-color: rgba(132, 162, 252, 0.1);
@@ -334,8 +394,8 @@
   border-radius: 50%;
 }
 .s-1-1{
-  top:30%;
-  left:-12%;
+  top:50%;
+  left:15%;
 }
 .s-1-2,.strait{
   width:500px;
@@ -343,63 +403,43 @@
   top:30%;
   right:-0%;
   rotate: 45deg;
+  border-radius: 50%;
 }
 .section{
   padding-top:13rem;
 }
-.section-one-single-part{
-  background-color: #0a1653;
-  padding:.8rem;
-  border-radius: 1.5rem;
-  /* border:1px solid #629bf546 */
+.section-one-main-part{
+  margin-left:2rem;
+  color:rgb(148 163 184)
 }
-.service-title{
-  margin-left:2.5rem;
+.secrvice-toggle-wrapper{
+  border-bottom: 1px solid rgb(148, 163, 184,.3);
 }
-.section-one-single-part:hover h1{
-  background-image: linear-gradient(45deg, #c40a26, #FE8B2D);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-    cursor: pointer;
+.secrvice-toggle-wrapper h4{
+  font-size: 16px;
+  margin:0;
+  padding:.5rem 0;
 }
-.section-one-single-part{
-  margin:1.5rem 0;
-}
-.section-one-single-part svg{
-  color:var(--white)
-}
-.section-one-single-part:hover svg{
-  color:var(--red)
-}
-.upper-part{
+.secrvice-toggle-wrapper .d-flex{
   justify-content: space-between;
-  font-size: 2rem;
 }
-.upper-part h1{
-  font-size: 1.7rem;
-  margin-bottom:0;
+.secrvice-toggle-wrapper .toggle-title, .secrvice-toggle-wrapper p{
+  padding:.4rem .8rem;
+  margin:0;
 }
-.lower-part-false{
-  display: none;
-  transition: .5s;
-  height: 0;
+.toggle-active{
+  background-color: #020728;
+  border-radius: 3px;
 }
-.lower-part-true{
-  display: block;
-  transition: .5s;
-  height: 100%;
+.service-section-img img{
+  margin-top:-4rem;
 }
+
 
 /* =======================section-TWO-GROW-BUSINESS ========================= */
 
 .section-2-wrapper{
   padding:1rem 0;
-  background-image: url('./assets/cool-background (2).png');
-  background-repeat: no-repeat;
-  background-size: cover;
   color: var(--white);
   position: relative;
   background-color: var(--bg-dark);
@@ -410,30 +450,7 @@
   margin-bottom:3rem;
   color:#040e41
 }
-.section-2-lower{
-  position:absolute;
-  color:var(--dark);
-  font-weight: 600;
-  top:-6%;
-  left:8%;
-  padding:2rem;
-  border-radius: 1.5rem;
-  background-image: url('./assets/coll-backgrount.png');
-}
-.section-box{
-  background-image: linear-gradient(45deg, #c40a26, #FE8B2D);
-}
-.section-2-lower .row .col-md-3 .d-flex{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.section-2-lower .row .col-md-3 .d-flex div, .section-2-lower .row .col-md-3 .d-flex h3{
-  font-size: 1.5rem!important;
-}
-.section-2-lower .row .col-md-3 .d-flex div{
-  margin-bottom:1.3rem;
-}
+
 .section-2-shape{
   opacity: .2;
 }
@@ -444,7 +461,6 @@
   left:25%;
 }
 .section-2-under-wrapper{
-  background-image: url('./assets/border-shape2.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -464,6 +480,10 @@
 .section-2-under-wrapper p{
   margin-top:3rem;
 }
+.section-grow-img img{
+  width:25rem;
+  text-align: center;
+}
 
 
 /* =======================SECTION THREE WORK PROCESS PART ===================== */
@@ -476,12 +496,16 @@
 .work-process-wrapper{
   padding-top:4rem;
 }
+.work-process-area img{
+  width:40rem;
+  margin-top:-4rem;
+}
 .work-process-wrapper{
   position: relative;
 }
 .testimonial-shape{
-  left:26%!important;
-  top:50%!important;
+  left:-10%!important;
+  top:20%!important;
 }
 .work-process-area{
   padding:0rem 2rem;
@@ -602,14 +626,10 @@
 .testimonial-wrapper{
   padding:1.5rem;
   border-radius: 1rem;
-  background-color: #0a1653;
+  background-color:#02072873;
+  border: 1px solid rgba(248,250,252,.08);
   color:var(--white);
   margin-bottom:1.5rem;
-}
-.testimonial-wrapper:hover{
-  background-image: linear-gradient(120deg, #FE8B2D, #c40a26);
-  color:var(--white);
-  transition: .3s;
 }
 .testimonial-comment{
   font-size: .8rem;
@@ -626,15 +646,6 @@
 }
 .testimonial-left-part{
   flex-direction: column;
-}
-.testimonial-left-part .col-9:nth-child(2){
-  margin-left:4rem;
-}
-.testimonial-right-part .col-9:nth-child(2){
-  margin-left:4rem;
-}
-.all-testimonial-wrapper{
-  padding:0 4rem;
 }
 
 
@@ -673,14 +684,22 @@
 .footer-colum h4{
   font-size: 2rem;
 }
-.social-media div{
-  padding:.2rem;
+.single-social-media{
+  margin-right:.6rem;
+  width:2.3rem;
+  height:2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(192,204,218,.1);
 }
 .social-media svg{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .social-media svg:hover{
-  color: var(--red);
+  color:#CC1D27;
+  cursor: pointer;
 }
 
 

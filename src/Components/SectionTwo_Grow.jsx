@@ -1,6 +1,6 @@
 import React from "react";
 import shape1 from "../assets/shape_1-1.png";
-import grow from "../assets/img_2.png";
+import grow from "../assets/why-huble.avif";
 
 function SectionTwo() {
   return (
@@ -19,22 +19,12 @@ function SectionTwo() {
           <div className="row">
             <div className="col-md-6">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                illum hic repellat ipsam deleniti ut molestias, voluptates
-                reprehenderit omnis iste, dignissimos, atque doloribus. Amet,
-                debitis a. Dolore porro sequi ut delectus impedit labore, et,
-                molestias corrupti corporis a nulla voluptates? Facere rerum est
-                ratione pariatur at illum ad voluptatem corrupti omnis fugiat
-                obcaecati dolore commodi, doloribus voluptas dolor? Iste cumque
-                nesciunt ea iusto impedit unde totam laborum voluptates,
-                obcaecati consequatur suscipit libero? Quam totam fugiat ad
-                laudantium error neque quis unde quibusdam sunt adipisci
-                recusandae similique ipsum inventore sit perferendis alias id,
-                impedit iure labore expedita delectus non at officiis!
+                
+Experience exponential business growth with <span className="creative-campus-name" >Creative Campus</span>, your trusted partner in software solutions. Our expert team harnesses cutting-edge technologies to optimize your operations, enhance efficiency, and drive remarkable results. With our tailored software development, UI/UX design, web development, and software management services, we provide comprehensive solutions to fuel your success in the digital era. Collaborate with us to unlock the full potential of your business, gain a competitive edge, and stay ahead in the dynamic market. Let us empower your brand with innovative strategies and transformative solutions that propel your growth. Trust <span className="creative-campus-name">Creative Campus</span> to navigate the ever-evolving digital landscape and deliver high-quality, scalable software solutions that align with your unique goals. Join us on this transformative journey and elevate your business to new heights.
               </p>
             </div>
             <div className="col-md-6">
-              <div>
+              <div className="section-grow-img text-center" >
                 <img src={grow} alt="" />
               </div>
             </div>

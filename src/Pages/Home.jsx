@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import Nevigation from "../Components/Nevigation";
+import Header from "../Components/Header";
 import SectionOne from "../Components/SectionOne_Service";
 import SectionTwo from "../Components/SectionTwo_Grow";
 import SectionThree from "../Components/SectionFour_Testimonial";
@@ -10,7 +10,7 @@ import HomeFooter from "../Components/HomeFooter";
 function Home() {
   return (
     <div>
-        <Nevigation/>
+        <Header/>
         <div className="full-bg-color" >
           <SectionOne/>
           <SectionTwo/>

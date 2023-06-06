@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/logo.png";
 import { MdOutlineLocationOn } from 'react-icons/md';
 import { IoLogoYoutube } from 'react-icons/io';
-import { FaFacebookSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import { AiOutlineMail, AiOutlinePhone, AiOutlineClockCircle } from 'react-icons/ai';
 
 function HomeFooter() {
@@ -35,9 +35,11 @@ function HomeFooter() {
           </div>
           <div className="col-md-4 col-sm-6">
             <div className="footer-colum">
-                <div className=" footer-link"><a href="#">HOME</a></div>
+                <div className=" footer-link"><a href="/">HOME</a></div>
                 <div className=" footer-link"><a href="#">SOFTWARE</a></div>
-                <div className=" footer-link"><a href="#">ABOUT US</a></div>
+                <div className=" footer-link"><a href="/about">ABOUT US</a></div>
+                <div className=" footer-link"><a href="">COURSES</a></div>
+                <div className=" footer-link"><a href="">REVIEW</a></div>
                 <div className=" footer-link"><a href="#">CONTACT</a></div>
             </div>
           </div>
@@ -45,10 +47,10 @@ function HomeFooter() {
             <div className="footer-colum">
                 <h4>Follow Us</h4>
                 <div className="d-flex social-media" >
-                    <div><FaFacebookSquare/></div>
-                    <div><FaInstagramSquare/></div>
-                    <div><FaLinkedin/></div>
-                    <div><IoLogoYoutube/></div>
+                    <div className="single-social-media" ><FaFacebookF/></div>
+                    <div className="single-social-media" ><FaInstagram/></div>
+                    <div className="single-social-media" ><FaLinkedinIn/></div>
+                    <div className="single-social-media" ><FaTwitter/></div>
                 </div>
             </div>
           </div>

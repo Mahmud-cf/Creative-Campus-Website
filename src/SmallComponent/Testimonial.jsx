@@ -2,10 +2,10 @@ import React from 'react'
 
 function Testimonial(props) {
   return (
-    <div className="col-9">
+    <div >
         <div className='testimonial-wrapper' >
         <div className='testimonial-comment' >
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quo, delectus illum amet voluptas consectetur corrupti nihil magnam eligendi quasi tempore!</p>
+            <p>{props.details}</p>
         </div>
         <div className='pic-name d-flex' > 
             <div className="pic">

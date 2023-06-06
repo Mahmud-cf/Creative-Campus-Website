@@ -1,6 +1,6 @@
 import React from "react";
 import titlebg from "../assets/yellow-bg.png";
-import workProcess from '../assets/work-process.png'
+import workProcess from '../assets/workProcess.gif'
 
 function SectionThree_WorkProcess() {
   return (

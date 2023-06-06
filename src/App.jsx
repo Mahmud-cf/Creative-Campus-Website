@@ -4,13 +4,14 @@ import viteLogo from '/vite.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Home from './Pages/Home'
+import AllRoute from './Router/AllRoute';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Home/>
+      <AllRoute/>
     </>
   )
 }

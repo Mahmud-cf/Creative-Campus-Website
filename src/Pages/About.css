@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Sriracha&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+  --white:#e2e8f0;
+  --red: #FF0025;
+  --dark: #102545;
+  --bg-dark: #040e41;
+  --primary-font: 'Poppins', sans-serif;
+  --heading-font: 'Sriracha', cursive;
+}
+.about-us-wrapper{
+    padding-top:8rem;
+    padding-bottom:3rem;
+    color:var(--white)
+}
+.abou-us-title h1{
+    font-family: var(--heading-font)!important;
+}
+.indivitual-team-member-wrapper{
+    padding:1rem;
+    background-image: linear-gradient(45deg,#122464,#020728);
+    border: 1px solid #1c324f;
+    border-radius: 4rem 0 4rem 0;
+    margin-bottom:2rem;
+}
+.member-img img{
+    padding:2rem;
+}
+.member-name h3{
+    font-size: 1.2rem;
+}
+.member-name p{
+    font-size: .8rem;
+    text-transform: uppercase;
+    margin-bottom:2rem;
+}
