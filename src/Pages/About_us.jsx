@@ -31,7 +31,7 @@ import jahidul from "../assets/jahidul.png";
 import jack from "../assets/jack.png";
 import joy from "../assets/joy.png";
 import sathi from "../assets/sathi.png";
-import Fazilatunnesa from "../assets/Fazilatunnesa.png";
+import fazila from "../assets/fazila.png";
 import HomeFooter from "../Components/HomeFooter";
 
 function About_us() {
@@ -182,7 +182,7 @@ function About_us() {
               title="SOFTWARE ENGINEER"
             />
             <Indivitual_team_member
-              img={Fazilatunnesa}
+              img={fazila}
               name="Fazilatunnesa"
               title="DIGITAL MARKETER"
             />

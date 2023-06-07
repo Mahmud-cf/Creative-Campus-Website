@@ -10,7 +10,7 @@ import NotFound from '../Pages/NotFound'
 
 function AllRoute() {
   return (
-        <BrowserRouter basename='creative-campus-website' >
+        <BrowserRouter >
             <Routes>
                 <Route path='/' element={<Home/>} />
                 <Route path='/about' element={<About_us/>} />
