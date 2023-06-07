@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/logo.png";
 import Header from "../Components/Header";
 import SectionOne from "../Components/SectionOne_Service";
 import SectionTwo from "../Components/SectionTwo_Grow";
