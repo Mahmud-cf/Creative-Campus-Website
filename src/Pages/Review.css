@@ -143,6 +143,19 @@
   .name-reating svg{
     font-size: 11px;
   }
+  .your-review-wrapper .list-group-item h5 , .all-stars{
+    font-size: 1rem;
+    padding:.6rem 1.5rem;
+  }
+  .details-star p{
+    font-size: .8rem;
+  }
+  .details-star p:first-child{
+    color :#eea7b2
+  }
+  .details-star p:last-child{
+    font-size: .7rem;
+  }
 }
 @media only screen and (min-width:400px) and (max-width:576px){
   .write-review{
@@ -164,6 +177,25 @@
   .write-review .btn{
     font-size: 14px;
   }
+  .your-review-wrapper .list-group-item h5 , .all-stars{
+    font-size: .9rem;
+    padding:.5rem 1.2rem;
+  }
+  .details-star p{
+    font-size: .75rem;
+  }
+  .details-star p:first-child{
+    color :#eea7b2
+  }
+  .details-star p:last-child{
+    font-size: .65rem;
+  }
+  .your-review-wrapper h2{
+    font-size: 1.3rem;
+  }
+  .your-review-wrapper{
+    margin:2rem 0;
+  }
 }
 @media only screen and (max-width:400px){
   .write-review{
@@ -184,6 +216,28 @@
   }
   .write-review .btn{
     font-size: 14px;
+  }
+  .your-review-wrapper .list-group-item h5 , .all-stars{
+    font-size: .9rem;
+    padding:.45rem 1rem;
+  }
+  .details-star p{
+    font-size: .75rem;
+  }
+  .details-star p:first-child{
+    color :#eea7b2
+  }
+  .details-star p:last-child{
+    font-size: .65rem;
+  }
+  .your-review-wrapper h2{
+    font-size: 1.3rem;
+  }
+  .your-review-wrapper{
+    margin:2rem 0;
+  }
+  .details-star{
+    padding:.6rem 1.4rem
   }
 }
 
