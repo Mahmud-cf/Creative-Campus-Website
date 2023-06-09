@@ -11,6 +11,7 @@ import digitalM from '../assets/digitalM.jpg'
 import english from '../assets/english.png'
 import freelancing from '../assets/freelancing.png'
 import CoursesFooter from '../SmallComponent/CoursesFooter.jsx'
+import '../Responsive.css'
 
 function Courses() {
   return (
@@ -37,9 +38,9 @@ function Courses() {
             </div>
             <div className="skill-courses-main-part">
               <div className="row">
-                <CoursesItem img={web_d} name='Full Stack Web Development' student='700' lesson='500' price='12,000' cut_price='5,000' />
-                <CoursesItem img={web_de} name='Web Design' student='1100' lesson='150' price='5,000' cut_price='999' />
-                <CoursesItem img={digitalM} name='Digital Marketing' student='600' lesson='400' price='12,000' cut_price='5,000' />
+                <CoursesItem img={web_d} name='Full Stack Web Development' student='700' lesson='500' price='5,000' cut_price='12,000' />
+                <CoursesItem img={web_de} name='Web Design' student='1100' lesson='150' price='999' cut_price='5,000' />
+                <CoursesItem img={digitalM} name='Digital Marketing' student='600' lesson='400' price='5,000' cut_price='12,000' />
                 
 
               </div>
@@ -67,7 +68,7 @@ function Courses() {
                     <div><img src={freelancing} alt="" /></div>
                     <div className='knowladge-up-title' >
                       <h3>Freelancing</h3>
-                      <p>Improve Your Speeking Skill</p>
+                      <p>Earn money form online</p>
                     </div>
                   </div>
                 </div>

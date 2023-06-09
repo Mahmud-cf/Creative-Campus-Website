@@ -16,7 +16,7 @@ function SectionThree_WorkProcess() {
         </div>
         <div className="work-process-area">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 text-center">
                     <img className="img-fluid" src={workProcess} alt="" />
                 </div>
                 <div className="col-md-6">
@@ -25,28 +25,28 @@ function SectionThree_WorkProcess() {
                             <div className="work-process-number" ><p>1</p></div>
                             <div>
                                 <h4>Research</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus iusto neque quam, atque quasi in officia animi libero cum voluptatibus sit molestias dolorum quo. Quos doloribus nam ducimus eaque impedit possimus, illo optio commodi ad, officiis incidunt! Voluptatem, quis quia.</p>
+                                <p>The first step in any project is to conduct research to gain a deeper understanding of the problem or opportunity at hand. This may involve conducting market research, analyzing user needs, or researching the latest trends in your industry. This information will inform the design and development of your project.</p>
                             </div>
                         </div>
                         <div className="work-process-single-part">
                             <div className="work-process-number" ><p>2</p></div>
                             <div>
                                 <h4>Design</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque illum unde sequi distinctio a, obcaecati excepturi, ab tenetur facere placeat cupiditate, dolorem quaerat saepe animi consequatur vero vel rerum? Dignissimos, laboriosam accusantium? Alias iusto tempore, laudantium aperiam quibusdam excepturi ab.</p>
+                                <p>Based on the insights gained during the research phase, the next step is to create a design for the project. This may involve developing sketches, creating wireframes, or producing high-fidelity designs using design software. The design should be focused on meeting the needs and desires of the target audience while also achieving the goals of the project.</p>
                             </div>
                         </div>
                         <div className="work-process-single-part">
                             <div className="work-process-number" ><p>3</p></div>
                             <div>
                                 <h4>Building</h4>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore eum non consequuntur esse iste nostrum voluptatum alias soluta saepe, sit molestiae, id dolore quia officia a provident repellendus sint repudiandae reprehenderit, odit quis et ad maiores! Fugiat voluptatum distinctio maxime!</p>
+                                <p>Once the design is finalized, the development phase can begin. This involves building the project using the appropriate tools and technologies. This may involve coding, prototyping, or producing content for the project. The development phase is where the project starts to take shape and become a tangible product.</p>
                             </div>
                         </div>
                         <div className="work-process-single-part">
                             <div className="work-process-number" ><p>4</p></div>
                             <div>
                                 <h4>Deliver</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti accusantium commodi, non hic numquam blanditiis. Totam facilis, aut laborum officiis voluptatum voluptatibus sapiente maxime incidunt repellat quam dolorem. Vel enim sed, repellendus veniam quas quam consectetur nemo hic assumenda!</p>
+                                <p>Once the project has been tested and refined, it's time to deliver it to the client or end-users. This may involve launching a website, publishing a report, or rolling out a new product or service. Delivery is the final step in the process, but it's important to continue to monitor and refine the project as needed.</p>
                             </div>
                         </div>
                         

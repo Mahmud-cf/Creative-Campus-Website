@@ -10,15 +10,17 @@ import { HiLocationMarker } from "react-icons/hi";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { Form, Row, Col, Button } from 'react-bootstrap';
+import '../Responsive.css'
 
 
 import "./Contact.css";
 import HomeFooter from "../Components/HomeFooter";
+import Navigation from "../Components/Navbar";
 
 function Contact_us() {
   return (
     <div>
-      <Navbar />
+      <Navigation />
       <div className="contact-page-wrapper full-bg-color">
         <div className="contact-page-header">
           <div className="contact-header-bg">
@@ -33,7 +35,7 @@ function Contact_us() {
           <div className="container">
             <div className="contact-main-section">
               <div className="row">
-                <div className="col-md-4">
+                <div className="col-xl-4 col-md-6">
                   <div className="contact-info-wrapper">
                     <div className="contact office-cocation">
                       <h2>Office Location</h2>
@@ -75,7 +77,7 @@ function Contact_us() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-8">
+                <div className="col-xl-8 col-md-6">
                   <div className="contact-form-wrapper">
                     <Form>
                       <Row>

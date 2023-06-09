@@ -22,9 +22,12 @@
     background-color: white;
     border-bottom:2px solid #ddd;
 }
-.courses-nev-wrapper .navbar-nav{
-    margin-left:2rem;
-    color:var(--dark)
+.courses-nev .navbar-nav{
+    margin-left:1rem;
+    color:var(--bg-dark)
+}
+.courses-nev .navbar-nav .nav-link{
+    color: var(--bg-dark);
 }
 .courses-nev-wrapper .navbar-nav .nav-item .nav-link{
     color:var(--dark)
@@ -187,3 +190,226 @@
 .courses-footer .single-social-media{
     background-color: rgba(192,204,218,.5);
 }
+
+
+@media only screen and (min-width:767px) and (max-width:992px){
+    .courses-nev .navbar-collapse{
+        background-color: var(--white);
+    }
+    .courses-nev .dropdown-toggle::before{
+        right:4%;
+    }
+    .skill-courses-wrapper h1{
+        margin-bottom:1rem;
+    }
+    .knowladge-up-single-item{
+        padding:.8rem;
+    }
+    .knowladge-up-single-item img{
+        width:3rem;
+        height:3.5rem;
+    }
+    .knowladge-up-title h3{
+        font-size: 1.3rem;
+    }
+    .knowladge-up-title p{
+        font-size: .9rem;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    .courses-nev .navbar-collapse{
+        background-color: var(--white);
+    }
+    .courses-header .course-header-title div h1 {
+        font-size: 2.5rem;
+    }
+    .courses-header .course-header-title h2 {
+        font-size: 1.8rem;
+    }
+    .courses-nev .dropdown-toggle::before{
+        right:4%;
+    }
+    .courses-page-wrapper{
+        padding-top:2.5rem;
+        
+    }
+    .knowladg-up-heading-part h1{
+        font-size: 2.5rem;
+    }
+    .knowladg-up-heading-part p{
+        font-size: 1.1rem;
+    }
+    .skill-courses-wrapper h1{
+        margin-bottom:1rem;
+    }
+    .knowladge-up-single-item{
+        padding:.8rem;
+    }
+    .knowladge-up-single-item img{
+        width:3rem;
+        height:3.5rem;
+    }
+    .knowladge-up-title h3{
+        font-size: 1.3rem;
+    }
+    .knowladge-up-title p{
+        font-size: .9rem;
+    }
+    .knowladge-up-section-wrapper{
+        margin-top:2.5rem;
+        padding-bottom:2.5rem;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:576px){
+    .courses-nev .navbar-collapse{
+        background-color: var(--white);
+    }
+    .courses-header .course-header-title div h1 {
+        font-size: 2.5rem;
+    }
+    .courses-header .course-header-title h2 {
+        font-size: 1.8rem;
+    }
+    .courses-nev .dropdown-toggle::before{
+        right:4%;
+    }
+    .courses-page-wrapper{
+        padding-top:2.5rem;
+        
+    }
+    .knowladg-up-heading-part h1{
+        font-size: 2.5rem;
+    }
+    .knowladg-up-heading-part p{
+        font-size: 1.1rem;
+    }
+    .skill-courses-wrapper h1{
+        margin-bottom:1rem;
+    }
+    .knowladge-up-single-item{
+        padding:.8rem;
+    }
+    .knowladge-up-single-item img{
+        width:3rem;
+        height:3.5rem;
+    }
+    .knowladge-up-title h3{
+        font-size: 1.3rem;
+    }
+    .knowladge-up-title p{
+        font-size: .9rem;
+    }
+    .knowladge-up-section-wrapper{
+        margin-top:2.5rem;
+        padding-bottom:2.5rem;
+    }
+    .single-course-item{
+        padding:.9rem;
+    }
+    .course-title{
+        margin:.8rem 0;
+    }
+    .course-star{
+        margin-bottom:.4rem;
+    }
+    .course-title h3{
+        font-size: 1rem;
+    }
+    .students{
+        font-size: .8rem;
+    }
+    .course-prices{
+        font-size: .9rem;
+        margin-top:.6rem
+    }
+    .skill-courses-wrapper{
+        padding:1rem;
+    }
+}
+@media only screen and (max-width:400px){
+    .courses-nev .navbar-collapse{
+        background-color: var(--white);
+    }
+    .courses-header .course-header-title div h1 {
+        font-size: 2rem;
+    }
+    .courses-header .course-header-title h2 {
+        font-size: 1.6rem;
+    }
+    .courses-nev .dropdown-toggle::before{
+        right:4%;
+    }
+    .courses-page-wrapper{
+        padding-top:2.5rem;
+        
+    }
+    .knowladg-up-heading-part h1{
+        font-size: 1.8rem;
+    }
+    .knowladg-up-heading-part p{
+        font-size: 1.1rem;
+    }
+    .skill-courses-wrapper h1{
+        margin-bottom:.5rem;
+        font-size: 1.3rem;
+    }
+    .knowladge-up-single-item{
+        padding:.8rem;
+    }
+    .knowladge-up-single-item img{
+        width:3rem;
+        height:3.5rem;
+    }
+    .knowladge-up-title h3{
+        font-size: 1rem;
+    }
+    .knowladge-up-title p{
+        font-size: .7rem;
+    }
+    .knowladge-up-section-wrapper{
+        margin-top:2.5rem;
+        padding-bottom:2.5rem;
+    }
+    .single-course-item{
+        padding:.9rem;
+    }
+    .course-title{
+        margin:.8rem 0;
+    }
+    .course-star{
+        margin-bottom:.4rem;
+    }
+    .course-title h3{
+        font-size: 1rem;
+    }
+    .students{
+        font-size: .8rem;
+    }
+    .course-prices{
+        font-size: .9rem;
+        margin-top:.6rem
+    }
+    .skill-courses-wrapper{
+        padding:2rem .9rem;
+    }
+    .skill-courses-main-part .col-md-6{
+        margin-left:.5rem;
+    }
+    .single-course-item img{
+        height:6.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,745 @@
+/* ============== HERE I WRITE RESPONSIVE CSS FOR ONLY HOME PAGE============== */
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    /*========================== HOME PAGE RESPONSIVE CSS  ===================*/
+    .navbar-nav{
+        margin-left:3rem;
+    }
+    .header-left-part h1{
+        margin:2rem 0;
+        font-size: 2.8rem;
+    }
+    .header-left-part p{
+        font-size: 15px;
+    }
+    .section-2-lower .row .col-md-3 .d-flex div, .section-2-lower .row .col-md-3 .d-flex h3{
+        font-size: 1.33rem!important;
+    }
+    .section-2-lower .row .col-md-3 .d-flex div{
+        margin-bottom:.3rem;
+    }
+    .section-2-lower{
+        padding:1.8rem;
+    }
+    .section-title h1{
+        font-size: 3.1rem;
+    }
+    .s-1-2, .strait {
+        width: 400px;
+        height: 6rem;
+        top: 18%;
+        right: 4%;
+        rotate: 37deg;
+        border-radius: 50%;
+    }
+    .section-2-under-wrapper p{
+        font-size: 14px;
+    }
+    .section-grow-img img{
+        width: 70%;
+    }
+    .section-2-shape .section-2-shape-1{
+        width:50%;
+    }
+    .testimonial-comment{
+        font-size: .7rem;
+    }
+
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    /*========================== HOME PAGE RESPONSIVE CSS  ===================*/
+    .navbar-nav{
+        margin-left:1rem;
+    }
+    .navbar-collapse{
+        background-color: var(--bg-dark);
+    }
+    .logo{
+        width: 8rem;
+    }
+    .header-left-part h1{
+        margin:2rem 0;
+        font-size: 2.1rem;
+    }
+    .header-left-part p{
+        font-size: 13px;
+    }
+    .header-right-part img{
+        width:18rem;
+    }
+    .header{
+        padding:4rem 0;
+        padding-top:5rem;
+    }
+    .header .row{
+        align-items: center;
+    }
+    .header-left-part div img{
+        left:50%;
+        width:9rem;
+    }
+    .header-shape .shape-2 {
+        top: 23%;
+        width: 200px;
+    }
+    .header-shape .shape-1 {
+        top: 17%;
+        rotate: 167deg;
+        width: 250px;
+    }
+    .lang-icon{
+        padding:.2rem .7rem;
+    }
+    .lang-icon p{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 0;
+    }
+    .lang-icon .lang-icon-div img{
+        width: 1.35rem;
+        height: 1.35rem;
+    }
+    .section{
+        padding-top:9rem;
+        padding-bottom:4rem;
+    }
+    .section-2-lower .row .col-md-3 .d-flex div, .section-2-lower .row .col-md-3 .d-flex h3{
+        font-size: 1.1rem!important;
+    }
+    .section-2-lower .row .col-md-3 .d-flex div{
+        margin-bottom:.3rem;
+    }
+    .section-2-lower{
+        padding:1.4rem;
+    }
+    .section-title h1{
+        font-size: 2.8rem;
+    }
+    .section-title img{
+        width:9rem;
+        right:5%;
+    }
+    .service-section-img img{
+        width:105%;
+        margin-top: 0;
+    }
+    .circul{
+        width:240px;
+        height: 240px;
+    }
+    .s-1-2, .strait {
+        width: 400px;
+        height: 6rem;
+        top: 13%;
+        right: 4%;
+        rotate: 29deg;
+        border-radius: 50%;
+    }
+    .section-2-under-wrapper p{
+        font-size: 12px;
+    }
+    .section-grow-img img{
+        width: 80%;
+    }
+    .work-process-main-part{
+        height: 310px;
+    }
+    .work-process-main-part p{
+        font-size: 12px;
+    }
+    .work-process-area img{
+        margin-top:-1rem;
+    }
+    .section-2-shape .section-2-shape-1{
+        width:50%;
+    }
+    .testimonial-comment{
+        font-size: .6rem;
+    }
+    .testimonial-wrapper .name h4{
+        font-size: .85rem;
+    }
+    .testimonial-wrapper{
+        padding: 1.1rem;
+    }
+    .testimonial-wrapper .name p{
+        font-size: .7rem;
+    }
+    .testimonial-wrapper .pic img{
+        width:2rem;
+        height: 2rem;
+    }
+    .footer-colum{
+        font-size: 13px;
+        margin-top: 0;
+    }
+    .footer-wrapper{
+        padding:2.6rem 0;
+    }
+    .footer-colum h4{
+        font-size: 1.65rem;
+    }
+
+}
+@media only screen and (min-width:576px) and (max-width:768px){
+    /*========================== HOME PAGE RESPONSIVE CSS  ===================*/
+    .navbar-nav{
+        margin-left:1rem;
+    }
+    .navbar-collapse{
+        background-color: var(--bg-dark);
+    }
+    .logo{
+        width: 8rem;
+    }
+    .header-left-part h1{
+        margin:2rem 0;
+        font-size: 2.1rem;
+    }
+    .header-left-part p{
+        font-size: 13px;
+    }
+    .header-right-part img{
+        width:18rem;
+    }
+    .header{
+        padding:4rem 0;
+        padding-top:5rem;
+    }
+    .header .row{
+        align-items: center;
+    }
+    .header-left-part div img{
+        left:50%;
+        width:9rem;
+    }
+    .next-mt{
+        margin-top: 1.5rem;
+    }
+    .header-shape .shape-2 {
+        top: 50%;
+        right:23%;
+        width: 200px;
+    }
+    .header-shape .shape-1 {
+        top: 17%;
+        rotate: 167deg;
+        width: 250px;
+    }
+    .lang-icon{
+        padding:.2rem .7rem;
+    }
+    .lang-icon p{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 0;
+    }
+    .lang-icon .lang-icon-div img{
+        width: 1.35rem;
+        height: 1.35rem;
+    }
+    .section-title{
+        margin-bottom: 2.5rem;
+    }
+    .section{
+        padding-top:11rem;
+        padding-bottom:4rem;
+    }
+    .section-2-lower .row .col-md-3 .d-flex div, .section-2-lower .row .col-md-3 .d-flex h3{
+        font-size: 1.1rem!important;
+    }
+    .section-2-lower .row .col-md-3 .d-flex div{
+        margin-bottom:.3rem;
+    }
+    .section-2-lower{
+        padding:1.4rem;
+    }
+    .section-title h1, .section-2-under-wrapper h1{
+        font-size: 2.3rem;
+    }
+    .section-title img{
+        width:9rem;
+        right:calc( 50% - 4.5rem );
+    }
+    .service-section-img img{
+        width:85%;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    .circul{
+        width:240px;
+        height: 240px;
+    }
+    .s-1-1{
+        top:35%;
+        left:0;
+    }
+    .s-1-2, .strait {
+        width: 400px;
+        height: 6rem;
+        top: 13%;
+        right: 4%;
+        rotate: 29deg;
+        border-radius: 50%;
+    }
+    .section-2-under-wrapper p{
+        font-size: 12px;
+    }
+    .section-grow-img img{
+        width: 55%;
+    }
+    .work-process-main-part{
+        height: 310px;
+    }
+    .work-process-main-part p{
+        font-size: 12px;
+    }
+    .work-process-area img{
+        margin-top:-1rem;
+        width:22rem;
+    }
+    .section-2-shape .section-2-shape-1{
+        width:65%;
+        left:17%;
+    }
+    .testimonial-comment{
+        font-size: .6rem;
+    }
+    .testimonial-wrapper .name h4{
+        font-size: .85rem;
+    }
+    .testimonial-wrapper{
+        padding: 1.1rem;
+    }
+    .testimonial-wrapper .name p{
+        font-size: .7rem;
+    }
+    .testimonial-wrapper .pic img{
+        width:2rem;
+        height: 2rem;
+    }
+    .next-display{
+        display: none;
+    }
+    .footer-colum{
+        font-size: 13px;
+        margin-top: 0;
+    }
+    .footer-wrapper{
+        padding:2.6rem 0;
+    }
+    .footer-colum h4{
+        font-size: 1.65rem;
+    }
+
+}
+@media only screen and (min-width:400px) and (max-width:576px){
+    /*========================== HOME PAGE RESPONSIVE CSS  ===================*/
+    .navbar-nav{
+        margin-left:1rem;
+    }
+    .navbar-collapse{
+        background-color: var(--bg-dark);
+    }
+    .nav-link, .dropdown-item{
+        font-size: 14px;
+    }
+    *{
+        max-width: 100%;
+    }
+    .logo{
+        width: 8rem;
+    }
+    .header-left-part{
+        margin:0 1rem;
+    }
+    .header-left-part h1{
+        margin:1.8rem 0;
+        font-size: 2.1rem;
+    }
+    .header-left-part p{
+        font-size: 12px;
+    }
+    .header-right-part img{
+        width:16rem;
+    }
+    .header{
+        padding:4rem 0;
+        padding-top:5rem;
+    }
+    .header .row{
+        align-items: center;
+    }
+    .header-left-part div img{
+        left:50%;
+        width:9rem;
+    }
+    
+    .header-shape .shape-2 {
+        top: 50%;
+        right:23%;
+        width: 200px;
+    }
+    .header-shape .shape-1 {
+        top: 17%;
+        rotate: 167deg;
+        width: 250px;
+    }
+    .lang-icon{
+        padding:.2rem .7rem;
+    }
+    .lang-icon p{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 0;
+    }
+    .lang-icon .lang-icon-div img{
+        width: 1.35rem;
+        height: 1.35rem;
+    }
+    .section-title{
+        margin-bottom: 1rem;
+    }
+    .section{
+        padding-top:9rem;
+        padding-bottom:3rem;
+    }
+    .section-2-lower .row .col-md-3 .d-flex div, .section-2-lower .row .col-md-3 .d-flex h3{
+        font-size: .9rem!important;
+        font-weight: 500;
+    }
+    .next-mt{
+        margin-top: .7rem;
+    }
+    .section-2-lower .row .col-md-3 .d-flex div{
+        margin-bottom:.3rem;
+    }
+    .section-2-lower{
+        padding:.8rem;
+    }
+    .section-title h1, .section-2-under-wrapper h1{
+        font-size: 2rem;
+    }
+    .section-title img{
+        width:9rem;
+        right:calc( 50% - 4.5rem );
+    }
+    .service-section-img img{
+        width:80%;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    .secrvice-toggle-wrapper h4{
+        font-size: 15px;
+    }
+    .secrvice-toggle-wrapper p{
+        font-size: 12px;
+    }
+    .circul{
+        width:240px;
+        height: 240px;
+    }
+    .s-1-1{
+        top:35%;
+        left:0;
+    }
+    .s-1-2, .strait {
+        width: 400px;
+        height: 6rem;
+        top: 13%;
+        right: 4%;
+        rotate: 29deg;
+        border-radius: 50%;
+    }
+    .section-2-under-wrapper p{
+        font-size: 12px;
+        margin-top: 1rem;
+    }
+    .section-grow-img img{
+        width: 55%;
+    }
+    .work-process-wrapper{
+        padding-top:2rem;
+    }
+    .work-process-main-part{
+        height: 310px;
+    }
+    .work-process-main-part p{
+        font-size: 11px;
+    }
+    .work-process-area img{
+        margin-top:-1rem;
+        width:22rem;
+    }
+    .section-2-shape .section-2-shape-1{
+        width:65%;
+        left:17%;
+        top:6%;
+    }
+    .testimonial-comment{
+        font-size: .5rem;
+    }
+    .testimonial-wrapper .name h4{
+        font-size: .75rem;
+    }
+    .testimonial-wrapper{
+        padding: .7rem;
+    }
+    .testimonial-wrapper .name p{
+        font-size: .6rem;
+    }
+    .testimonial-wrapper .name{
+        margin-left:.5rem;
+    }
+    .all-testimonial-wrapper .row{
+        margin-right:0;width:100%;
+        margin-left:0rem;
+    }
+    .testimonial-wrapper .pic img{
+        width:1.7rem;
+        height: 1.7rem;
+    }
+    .s-3-1 {
+        top: 40%;
+        left: -12%;
+    }
+    .next-display{
+        display: none;
+    }
+    .footer-colum{
+        font-size: 12px;
+        margin-top: 1.5rem;
+    }
+    .footer-wrapper{
+        padding:2.6rem 0;
+    }
+    .footer-colum h4{
+        font-size: 1.65rem;
+    }
+    .footer-link div:last-child{
+        margin-left:3px;
+    }
+    .single-social-media{
+        width:1.85rem;
+        height:1.85rem;
+    }
+    .social-media svg{
+        font-size: .9rem;
+    }
+
+}
+@media only screen and (max-width:400px){
+    /*========================== HOME PAGE RESPONSIVE CSS  ===================*/
+    .navbar-nav, .dropdown-item{
+        margin-left:1rem;
+    }
+    .navbar-collapse{
+        background-color: var(--bg-dark);
+    }
+    .nav-link, .dropdown-item{
+        font-size: 13px;
+        margin-left:0;
+    }
+    
+    *{
+        max-width: 100%;
+    }
+    .logo{
+        width: 7rem;
+    }
+    .header-left-part{
+        margin:0 1rem;
+    }
+    .header-left-part h1{
+        margin:1.35rem 0;
+        font-size: 2.1rem;
+    }
+    .header-left-part p{
+        font-size: 11px;
+    }
+    .header-right-part img{
+        width:14rem;
+    }
+    .header{
+        padding:4rem 0;
+        padding-top:5rem;
+    }
+    .header .row{
+        align-items: center;
+    }
+    .header-left-part div img{
+        left:50%;
+        width:7rem;
+        top:5%;
+    }
+    
+    .header-shape .shape-2 {
+        top: 55%;
+        right:25%;
+        width: 150px;
+    }
+    .header-shape .shape-1 {
+        top: 17%;
+        rotate: 167deg;
+        width: 200px;
+    }
+    .lang-icon{
+        padding:.2rem .7rem;
+    }
+    .lang-icon p{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 0;
+    }
+    .lang-icon .lang-icon-div img{
+        width: 1.35rem;
+        height: 1.35rem;
+    }
+    .section-title{
+        margin-bottom: 1rem;
+    }
+    .section{
+        padding-top:9rem;
+        padding-bottom:3rem;
+    }
+    .section-2-lower .row .col-md-3 .d-flex div, .section-2-lower .row .col-md-3 .d-flex h3{
+        font-size: .7rem!important;
+        font-weight: 500;
+    }
+    .next-mt{
+        margin-top: .7rem;
+    }
+    .section-2-lower .row .col-md-3 .d-flex div{
+        margin-bottom:.3rem;
+    }
+    .section-2-lower{
+        padding:.5rem;
+    }
+    .section-title h1, .section-2-under-wrapper h1{
+        font-size: 1.56rem;
+    }
+    .section-title img{
+        width:9rem;
+        right:calc( 50% - 4.5rem );
+    }
+    .service-section-img img{
+        width:80%;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    .secrvice-toggle-wrapper h4{
+        font-size: 13px;
+    }
+    .secrvice-toggle-wrapper p{
+        font-size: 11px;
+    }
+    .circul{
+        width:240px;
+        height: 240px;
+    }
+    .s-1-1{
+        top:26%;
+        left:0;
+        width:150px;
+        height: 150px;
+    }
+    .s-1-2, .strait {
+        width: 400px;
+        height: 6rem;
+        top: 13%;
+        right: 4%;
+        rotate: 29deg;
+        border-radius: 50%;
+    }
+    .section-2-under-wrapper p{
+        font-size: 11px;
+        margin-top: 1rem;
+    }
+    .section-grow-img img{
+        width: 55%;
+    }
+    .work-process-area{
+        padding:0;
+    }
+    .work-process-wrapper{
+        padding-top:2rem;
+    }
+    .work-process-main-part{
+        height: 280px;
+    }
+    .work-process-main-part p{
+        font-size: 11px;
+    }
+    .work-process-area img{
+        margin-top:-1rem;
+        width:22rem;
+    }
+    .section-2-shape .section-2-shape-1{
+        width:65%;
+        left:17%;
+        top:6%;
+    }
+    .testimonial-comment{
+        font-size: .43rem;
+    }
+    .testimonial-comment p{
+        margin-bottom:5px;
+    }
+    .testimonial-wrapper .name p{
+        margin-bottom: 5px;
+    }
+    .testimonial-wrapper .name h4{
+        font-size: .7rem;
+    }
+    .testimonial-wrapper{
+        padding: .6rem;
+    }
+    .testimonial-wrapper .name p{
+        font-size: .5rem;
+    }
+    .testimonial-wrapper .name{
+        margin-left:.5rem;
+    }
+    .all-testimonial-wrapper .row{
+        margin-right:0;width:100%;
+        margin-left:0rem;
+    }
+    .all-testimonial-wrapper .row .col-6{
+        padding:0;
+    }
+    .testimonial-wrapper .pic img{
+        width:1.7rem;
+        height: 1.7rem;
+    }
+    .s-3-1 {
+        top: 40%;
+        left: -12%;
+    }
+    .next-display{
+        display: none;
+    }
+    .footer-colum{
+        font-size: 12px;
+        margin-top: 1.5rem;
+    }
+    .footer-wrapper{
+        padding:2.6rem 0;
+    }
+    .footer-colum h4{
+        font-size: 1.65rem;
+    }
+    .footer-link div:last-child{
+        margin-left:3px;
+    }
+    .single-social-media{
+        width:1.6rem;
+        height:1.6rem;
+    }
+    .social-media svg{
+        font-size: .7rem;
+    }
+    .single-social-media{
+        margin-right:5px;
+    }
+
+}

@@ -1,73 +1,48 @@
 import React, { useState } from "react";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import logo from "../assets/logo.png";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
-function Navbar() {
+const Navigation = () => {
   const [scroll, setScroll] = useState(false);
   function scrollHeandler() {
-    if (window.scrollY >= 110) {
+    if (window.scrollY >= 50) {
       setScroll(true);
     } else {
       setScroll(false);
     }
   }
   window.addEventListener("scroll", scrollHeandler);
+
   return (
-    <nav
+    <Navbar
+    expand="lg"
       className={
         scroll ? "navbar navbar-expand-lg nav-bg" : "navbar navbar-expand-lg "
       }
     >
       <div className="container">
-        <a className="navbar-brand" href="/">
-          <img src={logo} alt="Creative Campus Logo" className="logo" />
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="/">
-                HOME
-              </a>
-            </li>
-            <NavDropdown title="SOFTWARE" id="nav-dropdown">
-              <NavDropdown.Item eventKey="4.1" href='/school-management-software'>SCHOOL MANAGEMENT SOFTWARE</NavDropdown.Item>
+        <Navbar.Brand href="/">
+          <img src={logo} alt="Creative Campus" className="logo" />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="">
+            <Nav.Link href="/">HOME</Nav.Link>
+            <NavDropdown title="SOFTWARE" id="SOFTWARE">
+              <NavDropdown.Item href="/school-management-software">
+                SCHOOL MANAGEMENT SOFTWARE
+              </NavDropdown.Item>
             </NavDropdown>
-            <li className="nav-item">
-              <a className="nav-link" href="/courses">
-                COURSES
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/review">
-                REVIEW
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/about">
-                ABOUT US
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/contact">
-                CONTACT US
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  );
-}
+            <Nav.Link href="/courses">COURSES</Nav.Link>
+            <Nav.Link href="/review">REVIEW</Nav.Link>
+            <Nav.Link href="/about">ABOUT US</Nav.Link>
 
-export default Navbar;
+            <Nav.Link href="/contact">CONTACT US</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </div>
+    </Navbar>
+  );
+};
+
+export default Navigation;

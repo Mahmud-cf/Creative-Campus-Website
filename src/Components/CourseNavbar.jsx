@@ -1,71 +1,67 @@
 import React, { useState } from "react";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import logo from "../assets/black-logo.png";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
-function CourseNavbar() {
+const Navigation = () => {
   const [scroll, setScroll] = useState(false);
   function scrollHeandler() {
-    if (window.scrollY >= 1) {
+    if (window.scrollY >= 10) {
       setScroll(true);
     } else {
       setScroll(false);
     }
   }
   window.addEventListener("scroll", scrollHeandler);
+
   return (
-    <nav
+    <Navbar
+    expand="lg"
       className={
-        scroll ? "navbar navbar-expand-lg nav-bg courses-nev-bg" : "navbar navbar-expand-lg "
+        scroll ? "navbar navbar-expand-lg courses-nev-bg courses-nev" : "navbar navbar-expand-lg courses-nev"
       }
     >
-      <div className="container courses-nev-wrapper">
-        <a className="navbar-brand" href="/">
-          <img src={logo} alt="Creative Campus Logo" className="logo" />
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="/">
-                HOME
-              </a>
-            </li>
-            <NavDropdown title="SKILLS" id="nav-dropdown">
-              <NavDropdown.Item eventKey="4.1" href='/courses'>WEB DEVELOPMENT</NavDropdown.Item>
-              <NavDropdown.Item eventKey="4.1" href='/courses'>WEB DESIGN</NavDropdown.Item>
-              <NavDropdown.Item eventKey="4.1" href='/courses'>FREELANCEING</NavDropdown.Item>
-              <NavDropdown.Item eventKey="4.1" href='/courses'>SPOKEN ENGLISH</NavDropdown.Item>
+      <div className="container">
+        <Navbar.Brand href="/">
+          <img src={logo} alt="Creative Campus" className="logo" />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="">
+            <Nav.Link href="/">HOME</Nav.Link>
+            <NavDropdown title="SKILL" id="SOFTWARE">
+              <NavDropdown.Item href="/courses">
+                WEB DEVELOPMENT
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/courses">
+                WEB DESIGN
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/courses">
+                SPOKEN ENGLISH
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/courses">
+                FREELANCEING
+              </NavDropdown.Item>
             </NavDropdown>
-            <li className="nav-item">
-              <a className="nav-link" href="/courses">
-                FREE COURSES
-              </a>
-            </li>
-            <NavDropdown title="CAREER TRUCK COURSES" id="nav-dropdown">
-              <NavDropdown.Item eventKey="4.1" href='/courses'>WEB DEVELOPMENT</NavDropdown.Item>
-              <NavDropdown.Item eventKey="4.1" href='/courses'>FREELANCEING</NavDropdown.Item>
-              <NavDropdown.Item eventKey="4.1" href='/courses'>DIGITAL MARKETING</NavDropdown.Item>
+            <Nav.Link href="/courses">FREE COURSES</Nav.Link>
+            <NavDropdown title="CAREER TRUCK" id="SOFTWARE">
+              <NavDropdown.Item href="/courses">
+                WEB DEVELOPMENT
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/courses">
+                DIGITAL MARKETING
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/courses">
+                FREELANCEING
+              </NavDropdown.Item>
             </NavDropdown>
-            <li className="nav-item">
-              <a className="nav-link" href="/contact">
-                CONTACT US
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  );
-}
+            <Nav.Link href="/about">ABOUT US</Nav.Link>
 
-export default CourseNavbar;
+            <Nav.Link href="/contact">CONTACT US</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </div>
+    </Navbar>
+  );
+};
+
+export default Navigation;

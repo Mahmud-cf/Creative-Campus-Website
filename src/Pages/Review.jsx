@@ -8,6 +8,8 @@ import client1 from "../assets/testimonial-1.png";
 import client2 from "../assets/testimonial-2.png";
 import client3 from "../assets/testimonial-3.png";
 import HomeFooter from "../Components/HomeFooter";
+import Navigation from "../Components/Navbar";
+import '../Responsive.css'
 
 function Review() {
   const [showModal, setShowModal] = useState(false);
@@ -59,7 +61,7 @@ function Review() {
 
   return (
     <div className="full-bg-color">
-      <Navbar />
+      <Navigation />
       <div className="review-page-wrapper container-fluid ">
         <div className="container">
           <div className="section-title">
@@ -69,7 +71,7 @@ function Review() {
             <img className="title-bg" src={titlebg} alt="" />
           </div>
           <div className="row write-review-wrapper">
-            <div className="write-review col-4">
+            <div className="write-review col-7">
               <h4>Write Review Here</h4>
               <button
                 className="btn btn-primary mb-3"

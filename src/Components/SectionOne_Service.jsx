@@ -14,25 +14,25 @@ function SectionOne() {
         <div className="section-box">
           <div className="section-2-lower">
             <div className="row">
-              <div className="col-md-3">
+              <div className="col-md-3 col-6">
                 <div className="d-flex">
                   <div>10+</div>
                   <h3 className="text-center">Years of experience</h3>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-6">
                 <div className="d-flex">
                   <div>500+</div>
                   <h3 className="text-center">Projects Complated</h3>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-6 next-mt">
                 <div className="d-flex">
                   <div>480+</div>
                   <h3 className="text-center">Setisfied Clients</h3>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-6 next-mt">
                 <div className="d-flex">
                   <div>10+</div>
                   <h3 className="text-center">Award Achivment</h3>

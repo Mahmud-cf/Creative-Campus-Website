@@ -38,3 +38,70 @@
     text-transform: uppercase;
     margin-bottom:2rem;
 }
+
+@media only screen and (min-width:767px) and (max-width:992px){
+    .indivitual-team-member-wrapper{
+        padding:.4rem;
+    }
+    .member-img img{
+        padding:.4rem;
+    }
+    .member-name p{
+        margin-bottom:1rem;
+    }
+    .member-name h3{
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:576px){
+    .indivitual-team-member-wrapper{
+        padding:.4rem;
+    }
+    .member-img img{
+        padding:.4rem;
+    }
+    .member-name p{
+        margin-bottom:1rem;
+    }
+    .member-name h3{
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (max-width:400px){
+    .indivitual-team-member-wrapper{
+        padding:.4rem;
+    }
+    .member-img img{
+        padding:.4rem;
+    }
+    .member-name p{
+        margin-bottom:1rem;
+        font-size: .6rem;
+    }
+    .member-name h3{
+        font-size: .9rem;
+    }
+    .team-member-wrapper .col-6{
+        padding:0 4px;
+    }
+    .team-member-wrapper{
+        margin-right:0;
+        margin-left:0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

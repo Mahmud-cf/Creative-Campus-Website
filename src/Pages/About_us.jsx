@@ -33,11 +33,13 @@ import joy from "../assets/joy.png";
 import sathi from "../assets/sathi.png";
 import fazila from "../assets/fazila.png";
 import HomeFooter from "../Components/HomeFooter";
+import Navigation from "../Components/Navbar";
+import '../Responsive.css'
 
 function About_us() {
   return (
     <div className="full-bg-color">
-      <Navbar />
+      <Navigation />
       <div className="about-us-wrapper container-fluid">
         <div className="container">
           <div className="section-title abou-us-title">

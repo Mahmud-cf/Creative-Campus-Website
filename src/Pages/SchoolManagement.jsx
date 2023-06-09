@@ -1,13 +1,45 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../Components/Navbar";
 import HomeFooter from "../Components/HomeFooter";
 import titlebg from "../assets/yellow-bg.png";
 import { Card } from "react-bootstrap";
 import { BiCheck } from "react-icons/bi";
 import { AiFillStar } from "react-icons/ai";
+import { FaStar } from "react-icons/fa";
+import client1 from "../assets/testimonial-1.png";
+import client2 from "../assets/testimonial-2.png";
+import client3 from "../assets/testimonial-3.png";
 import "./SchoolManagement.css";
+import Modal from "../SmallComponent/Modal";
 
 function SchoolManagement() {
+  
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const newReview = {
+      fullName,
+      organization,
+      email,
+      mobile,
+      organizationAddress,
+    };
+    setReviewsList([...reviewsList, newReview]);
+    setFullName("");
+    setOrganization("");
+    setEmail("");
+    setMobile("");
+    setOrganizationAddress("");
+    setShowModal(false);
+  };
+
+  const handleWriteReviewClick = () => {
+    setShowModal(true);
+  };
+
+  const handleCancel = () => {
+    setShowModal(false);
+  };
+
   return (
     <div className="full-bg-color">
       <Navbar />
@@ -24,9 +56,15 @@ function SchoolManagement() {
               <div className="col-md-4 col-sm-6">
                 <div className="single-packge-wrapper">
                   <Card>
-                    <Card.Header className='text-center' style={{ borderBottom: "1px solid #f8fafc14" }}>
+                    <Card.Header
+                      className="text-center"
+                      style={{ borderBottom: "1px solid #f8fafc14" }}
+                    >
                       <Card.Title>Monthly Package</Card.Title>
-                      <Card.Text className="d-flex" > <div>6 Month</div> <div>/50k</div></Card.Text>
+                      <Card.Text className="d-flex">
+                        {" "}
+                        <div>6 Month</div> <div>/50k</div>
+                      </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
@@ -43,7 +81,7 @@ function SchoolManagement() {
                           <BiCheck /> Library Management
                         </li>
                         <li>
-                          <BiCheck />  Financial Management
+                          <BiCheck /> Financial Management
                         </li>
                         <li>
                           <BiCheck /> Examination Management
@@ -79,13 +117,12 @@ function SchoolManagement() {
                           <BiCheck /> Attendance Management
                         </li>
                         <li>
-                          <AiFillStar /> Include Server & installation Cost(5000tk)
+                          <AiFillStar /> Include Server & installation
+                          Cost(5000tk)
                         </li>
                       </ul>
 
-                      <div className="purches-button text-center mt-3">
-                        <button className="btn btn-primary mb-3 mt-3" >PURCHASE</button>
-                      </div>
+                      <Modal/>
                     </Card.Body>
                   </Card>
                 </div>
@@ -93,9 +130,15 @@ function SchoolManagement() {
               <div className="col-md-4 col-sm-6">
                 <div className="single-packge-wrapper">
                   <Card>
-                    <Card.Header className='text-center' style={{ borderBottom: "1px solid #f8fafc14" }}>
+                    <Card.Header
+                      className="text-center"
+                      style={{ borderBottom: "1px solid #f8fafc14" }}
+                    >
                       <Card.Title>Yearly Package</Card.Title>
-                      <Card.Text className="d-flex" > <div>1 Year</div> <div>/120k</div></Card.Text>
+                      <Card.Text className="d-flex">
+                        {" "}
+                        <div>1 Year</div> <div>/120k</div>
+                      </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
@@ -112,7 +155,7 @@ function SchoolManagement() {
                           <BiCheck /> Library Management
                         </li>
                         <li>
-                          <BiCheck />  Financial Management
+                          <BiCheck /> Financial Management
                         </li>
                         <li>
                           <BiCheck /> Examination Management
@@ -148,13 +191,12 @@ function SchoolManagement() {
                           <BiCheck /> Attendance Management
                         </li>
                         <li>
-                          <AiFillStar /> Include Server & installation Cost(5000tk)
+                          <AiFillStar /> Include Server & installation
+                          Cost(5000tk)
                         </li>
                       </ul>
 
-                      <div className="purches-button text-center mt-3">
-                        <button className="btn btn-primary mb-3 mt-3" >PURCHASE</button>
-                      </div>
+                      <Modal/>
                     </Card.Body>
                   </Card>
                 </div>
@@ -162,9 +204,15 @@ function SchoolManagement() {
               <div className="col-md-4 col-sm-6">
                 <div className="single-packge-wrapper">
                   <Card>
-                    <Card.Header className='text-center' style={{ borderBottom: "1px solid #f8fafc14" }}>
+                    <Card.Header
+                      className="text-center"
+                      style={{ borderBottom: "1px solid #f8fafc14" }}
+                    >
                       <Card.Title>Lifetime Package</Card.Title>
-                      <Card.Text className="d-flex" > <div>Lifetime</div> <div>/180k</div></Card.Text>
+                      <Card.Text className="d-flex">
+                        {" "}
+                        <div>Lifetime</div> <div>/180k</div>
+                      </Card.Text>
                     </Card.Header>
                     <Card.Body>
                       <ul>
@@ -181,7 +229,7 @@ function SchoolManagement() {
                           <BiCheck /> Library Management
                         </li>
                         <li>
-                          <BiCheck />  Financial Management
+                          <BiCheck /> Financial Management
                         </li>
                         <li>
                           <BiCheck /> Examination Management
@@ -217,13 +265,12 @@ function SchoolManagement() {
                           <BiCheck /> Attendance Management
                         </li>
                         <li>
-                          <AiFillStar /> Include Server & installation Cost(5000tk)
+                          <AiFillStar /> Include Server & installation
+                          Cost(5000tk)
                         </li>
                       </ul>
 
-                      <div className="purches-button text-center mt-3">
-                        <button className="btn btn-primary mb-3 mt-3" >PURCHASE</button>
-                      </div>
+                      <Modal/>
                     </Card.Body>
                   </Card>
                 </div>

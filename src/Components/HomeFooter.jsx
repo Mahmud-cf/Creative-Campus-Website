@@ -13,7 +13,7 @@ function HomeFooter() {
           <img src={logo} alt="Creative Campus Logo" className="logo" />
         </div>
         <div className="row">
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4 col-6">
             <div className="footer-colum">
             <div className="d-flex footer-link">
                 <div><MdOutlineLocationOn/></div>
@@ -33,7 +33,7 @@ function HomeFooter() {
             </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4 col-6">
             <div className="footer-colum">
                 <div className=" footer-link"><a href="/">HOME</a></div>
                 <div className=" footer-link"><a href="/school-management-software">SOFTWARE</a></div>
@@ -43,7 +43,7 @@ function HomeFooter() {
                 <div className=" footer-link"><a href="contact">CONTACT US</a></div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4 col-6">
             <div className="footer-colum">
                 <h4>Follow Us</h4>
                 <div className="d-flex social-media" >

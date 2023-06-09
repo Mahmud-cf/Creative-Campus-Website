@@ -8,7 +8,7 @@ import '../Pages/Courses.css'
 
 function CoursesItem(props) {
   return (
-    <div className='col-md-4' >
+    <div className='col-xl-4 col-md-6' >
         <Col className='single-course-item'>
           <img className='img-fluid' src={props.img} alt="Course" />
           <div className="course-details">

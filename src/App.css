@@ -35,9 +35,16 @@
   width:100%;
   z-index: 10;
 }
+.navbar-toggler{
+  border: 2px solid var(--white);
+}
+.navbar-toggler-icon{
+  background-image: url('./assets/nev-image.jpg');
+}
 .nav-bg{
   background-color: var(--bg-dark);
   border-bottom: 2px solid #1c324f;
+  
 }
 .navbar-nav{
   margin-left:10rem;
@@ -48,14 +55,15 @@
 .navbar-nav .nav-item{
   margin:0 .5rem;
 }
-.navbar-nav .nav-item .nav-link{
+.nav-link{
   padding:.5rem .5rem;
   font-size: 17px;
   font-weight: 500;
   position: relative;
-  color:var(--white)
+  color:var(--white);
+  margin-right:.5rem;
 }
-.navbar-nav .nav-item .nav-link::after{
+.nav-link::after{
   content: '';
   position: absolute;
   width: 0%;
@@ -91,11 +99,22 @@
   font-weight: 500;
   color:var(--white)
 }
-.navbar-nav .nav-item .nav-link:hover::after{
+.nav-link:hover::after{
   width:100%;
   transition: .3s;
 }
-.navbar-nav .nav-item .nav-link:hover{
+.dropdown-toggle:hover::before{
+  color:#e04c62
+}
+.nav-link.show {
+  background-image: linear-gradient(45deg, #FF0025, #FE8B2D);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+.nav-link:hover{
   font-weight: 500;
     background-image: linear-gradient(45deg, #FF0025, #FE8B2D);
     background-size: 100%;
@@ -122,7 +141,7 @@
 .header{
   position: relative;
   z-index: 2;
-  padding: 3rem 0;
+  padding: 7rem 0;
   padding-top:8rem;
 }
 .header *{
@@ -460,6 +479,9 @@
 .section-2-under-wrapper{
   background-size: cover;
   background-repeat: no-repeat;
+}
+.section-2-under-wrapper .row{
+  align-items: center;
 }
 .section-2-under-wrapper h1{
   font-family: var(--heading-font);

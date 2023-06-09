@@ -2,6 +2,7 @@ import React from 'react'
 import './NotFound.css'
 import titlebg from '../assets/yellow-bg.png'
 import notFound from '../assets/notFound.png'
+import '../Responsive.css'
 
 function NotFound() {
   return (

@@ -10,6 +10,7 @@ import headerShpaeOne from "../assets/shape1.png";
 import headerShpaeTwo from "../assets/shape2.png";
 import { FaExpandArrowsAlt } from 'react-icons/fa';
 import Navbar from "./Navbar";
+import Navigation from "./Navbar";
 
 function Nevigation() {
   
@@ -17,7 +18,7 @@ function Nevigation() {
     
     <div className="nev-wrapper nevigation">
         
-          <Navbar/>
+          <Navigation/>
           <div className="header container">
             <div className="header-shape">
               <img className="shape-1" src={headerShpaeOne} alt="" />

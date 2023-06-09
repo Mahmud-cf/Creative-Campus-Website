@@ -60,7 +60,124 @@
   font-size: 1.2rem;
 }
 
-
+@media only screen and (min-width:767px) and (max-width:992px){
+  .card-header, .card-body{
+    padding:1.2rem .5rem;
+  }
+  .school-management-wrapper{
+    padding:4rem 1rem;
+  }
+  .card-header .card-title{
+    font-size: 1.3rem;
+  }
+  .school-management-wrapper .section-title h1 span{
+    margin-top:1.5rem;
+    display: inline-block;
+  }
+  .card-text{
+    font-size: .85rem!important;
+  }
+  .card-body li{
+    font-size: .8rem;
+    padding:2px;
+  }
+  .card-body li svg{
+    margin-right:5px;
+  }
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+  .card-header, .card-body{
+    padding:1.2rem .5rem;
+  }
+  .card{
+    margin-bottom: 2rem;
+  }
+  .modal-dialog{
+    padding:0 4rem;
+  }
+  .school-management-wrapper{
+    padding:4rem 1rem;
+  }
+  .card-header .card-title{
+    font-size: 1.3rem;
+  }
+  .school-management-wrapper .section-title h1 span{
+    margin-top:1.5rem;
+    display: inline-block;
+  }
+  .card-text{
+    font-size: .85rem!important;
+  }
+  .card-body li{
+    font-size: .8rem;
+    padding:2px;
+  }
+  .card-body li svg{
+    margin-right:5px;
+  }
+}
+@media only screen and (min-width:400px) and (max-width:576px){
+  .card-header, .card-body{
+    padding:1.2rem .5rem;
+  }
+  .card{
+    margin-bottom: 2rem;
+  }
+  .modal-dialog{
+    padding:0 2rem;
+  }
+  .school-management-wrapper{
+    padding:4rem 1rem;
+  }
+  .card-header .card-title{
+    font-size: 1.3rem;
+  }
+  .school-management-wrapper .section-title h1 span{
+    margin-top:1.5rem;
+    display: inline-block;
+  }
+  .card-text{
+    font-size: .85rem!important;
+  }
+  .card-body li{
+    font-size: .8rem;
+    padding:2px;
+  }
+  .card-body li svg{
+    margin-right:5px;
+  }
+}
+@media only screen and (max-width:400px){
+  .card-header, .card-body{
+    padding:1.2rem .5rem;
+  }
+  .card{
+    margin-bottom: 2rem;
+  }
+  .modal-dialog{
+    padding:0 .5rem;
+  }
+  .school-management-wrapper{
+    padding:4rem 1rem;
+  }
+  .card-header .card-title{
+    font-size: 1.3rem;
+  }
+  .school-management-wrapper .section-title h1 span{
+    margin-top:1.5rem;
+    display: inline-block;
+  }
+  .card-text{
+    font-size: .85rem!important;
+  }
+  .card-body li{
+    font-size: .8rem;
+    padding:2px;
+  }
+  .card-body li svg{
+    margin-right:5px;
+  }
+}
 
 
 

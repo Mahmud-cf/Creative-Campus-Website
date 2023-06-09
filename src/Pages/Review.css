@@ -108,7 +108,84 @@
   background-color: #0f1c5d;
 }
 
-
+@media only screen and (min-width:768px) and (max-width:992px){
+  .write-review{
+    padding:1rem;
+    border-radius: 5px;
+  }
+  .client-single-review{
+    padding:.4rem;
+  }
+  .review-details p{
+    font-size: 10px;
+  }
+  .name-reating h5{
+    font-size: 13px;
+  }
+  .name-reating svg{
+    font-size: 11px;
+  }
+}
+@media only screen and (min-width:576px) and (max-width:768px){
+  .write-review{
+    padding:.7rem;
+    border-radius: 5px;
+  }
+  .client-single-review{
+    padding:.4rem;
+  }
+  .review-details p{
+    font-size: 10px;
+  }
+  .name-reating h5{
+    font-size: 13px;
+  }
+  .name-reating svg{
+    font-size: 11px;
+  }
+}
+@media only screen and (min-width:400px) and (max-width:576px){
+  .write-review{
+    padding:.7rem;
+    border-radius: 5px;
+  }
+  .client-single-review{
+    padding:.4rem;
+  }
+  .review-details p{
+    font-size: 10px;
+  }
+  .name-reating h5{
+    font-size: 13px;
+  }
+  .name-reating svg{
+    font-size: 11px;
+  }
+  .write-review .btn{
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width:400px){
+  .write-review{
+    padding:.7rem;
+    border-radius: 5px;
+  }
+  .client-single-review{
+    padding:.4rem;
+  }
+  .review-details p{
+    font-size: 9px;
+  }
+  .name-reating h5{
+    font-size: 12px;
+  }
+  .name-reating svg{
+    font-size: 11px;
+  }
+  .write-review .btn{
+    font-size: 14px;
+  }
+}
 
 
 
